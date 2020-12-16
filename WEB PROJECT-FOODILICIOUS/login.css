@@ -1,0 +1,261 @@
+body{
+    background-color: white;
+}
+#logo{
+    float:left;
+    text-align: center;
+background-image:url(logo.jpg);
+    background-size: cover;
+}
+#navigation{
+overflow:hidden;
+    background-color: #333;
+    color:white;
+    text-align: center;  
+}
+
+.navigation{
+ list-style-type:none;
+overflow:hidden;
+ background-color: #333;
+     
+}
+li a{
+     display:block;
+    color:white;
+    text-align: center;
+    padding:15px 16px;
+    text-decoration: none;
+     font-size: 120%;
+    
+}
+li{
+    float:left;
+}
+#login{
+    float:right;
+}
+
+li a:hover{
+    background-color: #111;
+}
+.layout{
+     background-color: antiquewhite;
+    
+    padding:20px 20px;
+    margin:20px 20px;
+}
+#allforms{
+    background-color: antiquewhite;
+     padding:20px 20px;
+    margin:20px 20px;
+    margin-bottom: 10px;
+    
+}
+
+.container {
+  padding: 16px;
+    margin:30px 30px;
+    margin-left: 300px;
+     margin-right: 300px;
+    text-align: center;
+    background-color: snow;
+}
+input[type=text], select {
+    width:100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+    width:100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  display: block;
+  background-color: palevioletred;
+  color: black;
+  padding: 14px 20px;
+  border:none;
+  border-radius: 4px;
+  cursor: pointer;
+    float:left;
+}
+
+
+input[type=submit]:hover {
+  background-color: brown;
+}
+input[type=button] {
+  display: block;
+  background-color: beige;
+  color: black;
+  padding: 14px 20px;
+  border:none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#image{
+ float:left;
+     margin-top: 50px;
+     margin-left: 20px;
+    
+    
+}
+#forms {
+  background-color: #f2f2f2;
+  padding: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 550px;
+        font-size: 120%;
+    
+    
+}
+#button{
+    text-align: center;
+}
+
+
+#user{
+    display:block;
+    margin-top: auto;
+    text-align: inherit;
+   
+}
+
+.img{
+    object-fit: cover;
+    object-position: center;
+    width:200px;
+    height:200px;
+    
+}
+#table{
+     margin-left: 30px;
+}
+.table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+    margin-left: 200px;
+    width:85%;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.table tr:nth-child(even){
+   
+    background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  background-color: snow;
+  color: gray;
+}
+#name{
+    text-decoration-color: cadetblue;
+    text-emphasis-position: below;
+    font-family: sans-serif;
+}
+
+
+
+.cart{
+    border: 1px solid #333;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.btn{
+    margin-top: 5px;
+    margin-bottom:2px;
+    margin-left: 50px;
+    text-align: center;
+    
+}
+
+#decoration{
+    background-color: antiquewhite;
+     padding:20px 20px;
+    margin:20px 20px;
+    
+}
+
+.tableclass td, .tableclass th {
+  border: 1px solid #ddd;
+
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.tableclass tr:hover {background-color: #ddd;}
+
+.tableclass th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  background-color: snow;
+  color: gray;
+}
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+  
+
+/* Float four columns side by side */
+.shopping {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+margin-right: 20px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.containers {
+    margin-left: 100px;
+    
+}
+
+/* Clear floats after the columns */
+.containers:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .shopping {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.order{
+   float:right;
+    margin-right: 200px;
+    
+}

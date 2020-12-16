@@ -1,0 +1,250 @@
+#logo{
+    float:left;
+    text-align: center;
+background-image:url(logo.jpg);
+    background-size: cover;
+    margin-left: 60px;
+    position: fixed;
+}
+
+h5{
+    font-family:inherit;
+    font-style:oblique;
+    float:right;
+}
+h2{
+    text-align: center;
+}
+
+.navigation{
+    list-style-type: none;
+overflow:hidden;
+ background-color: #333;
+    margin-top: 60px;
+    margin-left: 10px;;
+  width:200px;
+    padding: 0px;
+    position:fixed;
+  height: 100%;
+  overflow: auto;
+   
+    }
+
+    li a{
+     display:block;
+    color:white;
+    text-align: center;
+    padding:20px 0px;
+    text-decoration: none;
+     font-size: 120%;
+        width:200px;
+}
+
+li{
+    float:left;
+}
+
+
+li a:hover{
+    background-color: #111;
+    
+}
+
+#customer{
+    border-top:1px solid;
+    border-color: white;
+    background-color: antiquewhite;
+    margin-left:10px;
+   
+    
+    
+}
+.customers{
+    border:1px solid;
+    border-color: white;
+    background-color: aliceblue;
+   padding-top: 20px;
+}
+
+
+  
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+    margin-left: 200px;
+    width:85%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+#customers tr:nth-child(even){
+   
+    background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: snow;
+  color: gray;
+}
+
+.admin{
+    float:right;
+    margin-left: 480px;
+     margin-right: 480px;
+    padding:100px;
+}
+
+#dashboard{
+    margin-left: 250px;
+    text-decoration: none;
+    color: black;
+   
+}
+#forms {
+  background-color: #f2f2f2;
+  padding: 20px;
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 410px;
+        font-size: 120%;
+    
+    
+}
+#button{
+    text-align: center;
+}
+
+
+#user{
+    display:block;
+    margin-top: auto;
+    text-align: inherit;
+   
+}
+
+.img{
+    object-fit: cover;
+    object-position: center;
+    width:200px;
+    height:200px;
+    
+}
+#table{
+     margin-left: 30px;
+}
+.table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+    margin-left: 200px;
+    width:85%;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.table tr:nth-child(even){
+   
+    background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  background-color: snow;
+  color: gray;
+}
+#name{
+    text-decoration-color: cadetblue;
+    text-emphasis-position: below;
+    font-family: sans-serif;
+}#allforms{
+    background-color: antiquewhite;
+     padding:20px 20px;
+    margin:20px 20px;
+}
+
+.container {
+  padding: 16px;
+    margin:30px 30px;
+    margin-left: 300px;
+     margin-right: 300px;
+    text-align: center;
+    background-color: snow;
+}
+input[type=text], select {
+    width:100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+    width:100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  display: block;
+  background-color: palevioletred;
+  color: black;
+  padding: 14px 20px;
+  border:none;
+  border-radius: 4px;
+  cursor: pointer;
+    float:left;
+}
+
+
+input[type=submit]:hover {
+  background-color: brown;
+}
+input[type=button] {
+  display: block;
+  background-color: beige;
+  color: black;
+  padding: 14px 20px;
+  border:none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#image{
+ float:left;
+     margin-top: 50px;
+     margin-left: 20px;
+    
+    
+}
+large{
+    font-size: 100%;
+}
+.profile
+{
+    
+    margin-left: 380px;
+     margin-right: 380px;
+    padding:150px;
+}
+.welcome{
+    font-size: 100%;
+}

@@ -1,0 +1,120 @@
+
+
+
+#logo{
+    float:left;
+    text-align: center;
+background-image:url(logo.jpg);
+    background-size: cover;
+}
+h5{
+    font-family:inherit;
+    font-style:oblique;
+    float:right;
+
+}
+#navigation{
+overflow:hidden;
+    background-color: #333;
+color:white;
+    text-align:center;
+}
+.navigation{
+ list-style-type:none;
+overflow:hidden;
+ background-color: #333;
+     
+}
+li a{
+     display:block;
+    color:white;
+    text-align: center;
+    padding:15px 16px;
+    text-decoration: none;
+     font-size: 120%;
+    
+}
+li{
+    float:left;
+}
+#login{
+    float:right;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+#allforms{
+    background-color: antiquewhite;
+     padding:20px 20px;
+    margin:20px 20px;
+}
+
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+    margin:30px 30px;
+    margin-left: 300px;
+     margin-right: 300px;
+    text-align: center;
+    background-color: snow;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password]{
+  width: 530px;
+  padding: 15px;
+    padding-right:200px;
+  margin: 5px;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+    
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: brown;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+#error_msg{
+    width:50%;
+    margin:5px auto;
+    height:30px;
+    border:1px solid #FF0000;
+    background:#FFB9B8;
+    color:#FF0000;
+    text-align:center;
+    padding-top:10px;
+}
+    
+}
+
+
+
+
+
+
